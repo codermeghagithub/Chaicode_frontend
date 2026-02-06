@@ -4,6 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  background: #000;
   
 }
 
@@ -11,15 +12,50 @@ body {
   font-family: "CursorGothic", "Helvetica Neue", Arial, Helvetica, "Segoe UI", sans-serif;
 }
 header{
-  padding:20px 9%;
+  padding:15px 40px;
   display:flex;
   align-items: center;
   justify-content: space-between;
+
   }
+  ul {
+  display: flex;
+  align-items:center;
+  /* justify-content: center; */
+  list-style: none;
+  gap: 25px;
+  font-size: 16px;
+}
 
   .logo{
-    font-size: 30px;
-    font-weight: 600;
+    height: auto;
+    width: 120px;
+    cursor: pointer;
     text-transform:uppercase ;
-    color: black;
+    color:#fff;
+  }
+
+  .btn1{
+    padding:8px 14px;
+    border-radius: 15px;
+     border: 1px solid #fff;
+  background-color: #000;
+  color: #fff;
+  
+  }
+
+
+  .btn2{
+    padding:8px 14px;
+    border-radius: 15px;
+     border: 1px solid #000;
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+  }
+  li{
+    display:inline-block;
+  }
+  li a{
+    color: #fff;;
   }
